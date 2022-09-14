@@ -1,9 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import {Card, Caption} from "./App";
 
 ReactDOM.render(
-	<App/>,
+	<div>
+		<Card />
+		<Card />
+		<Caption />
+		<Card />
+		<Card />
+	</div>
+	,
 	document.querySelector("#root")
 );
